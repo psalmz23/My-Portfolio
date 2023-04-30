@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header {
+    width: 100%;
+    height: 100vh;
+} */
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.925)), url(bg_cover.JPG);
+    padding: 0 8%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#about h1 {
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 50px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+
+}
+
+.textbox {
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    left: 33%;  
+    text-align: center;
+}
+
+.textbox small {
+    font-size: 16px;
+    padding-bottom: 8px;
+    font-weight: 300;
+}
+.textbox h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.textbox h3 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.about-me {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 40px 100px;
+}
+
+
+
+.mypic img {
+    height: 500px;
+    width: 450px;
+}
+
+.about-me-text {
+    padding: 50px 30px;
+    /* width: 50%; */
+    /* height: 50vh; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a.navlink:hover {
+    color: rgb(208, 212, 216);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+button {
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-cv {
+    background-color: red;
+    color: white;
+}
+
+.btn-cv :hover{
+    /* background-color: black; */
+    color: rgb(199, 197, 197);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.nav_menu {
+    display: flex;
+    /* padding-right: 80px; */
+}
+    
+
+.foot-container {
+    width: 60%;
+    margin: auto;
+    background-color: rgba(24, 23, 23, 0.507);
+}
+
+input, textarea {
+    /* background-color: beige; */
+    /* color: burlywoo; */
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    /* border: 1px solid grey; */
+    padding: 12px 20px;
+}
+
+button {
+    width: 50%;
+}
+
+.form-field {
+    padding: 20px;
+}
+
+.footer-foot {
+    text-align: center;
+    padding: 15px 20px;
+}
+
